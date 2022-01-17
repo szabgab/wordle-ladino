@@ -28,5 +28,13 @@ $ npm install
 $ npm run start
 ```
 
+### Generate static files
+
+```
+$ npm run build
+```
+
+This will generated a directory called `build` that can be deployed on any static server. Including GitHub pages.
+
 ### I'm looking for a junior developer role
 Please feel free to contact me on [linkedin](https://www.linkedin.com/in/hannahpark1000/) and learn more about me [here](https://www.hannahmariepark.com/)
