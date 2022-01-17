@@ -58,46 +58,46 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
                     as="h3"
                     className="text-lg leading-6 font-medium text-gray-900"
                   >
-                    How to play
+                    Komo djugar
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      Guess the WORDLE in 6 tries. After each guess, the color
-                      of the tiles will change to show how close your guess was
-                      to the word.
+                      Endevina el Biervo en 6 aprovos. Despues kada aprovo, el kolor
+                      de las tejas va a kambia para amostrar ke serkano fue tu aprovo
+                      a el biervo.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
-                      <Cell value="W" status="correct" />
-                      <Cell value="E" />
-                      <Cell value="A" />
-                      <Cell value="R" />
-                      <Cell value="Y" />
-                    </div>
-                    <p className="text-sm text-gray-500">
-                      The letter W is in the word and in the correct spot.
-                    </p>
-
-                    <div className="flex justify-center mb-1 mt-4">
-                      <Cell value="P" />
+                      <Cell value="A" status="correct" />
+                      <Cell value="D" />
                       <Cell value="I" />
-                      <Cell value="L" status="present" />
+                      <Cell value="Y" />
                       <Cell value="O" />
-                      <Cell value="T" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      The letter L is in the word but in the wrong spot.
+                      La letra A (en vedre) esta en el biervo en el lugar korekto. En el primer lugar.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
-                      <Cell value="V" />
-                      <Cell value="A" />
-                      <Cell value="G" />
-                      <Cell value="U" status="absent" />
                       <Cell value="E" />
+                      <Cell value="S" />
+                      <Cell value="T" status="present" />
+                      <Cell value="A" />
+                      <Cell value="N" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      The letter U is not in the word in any spot.
+                      La letra T (en amaryo) esta en el biervo ama no en este lugra. No en lugar trese.
+                    </p>
+
+                    <div className="flex justify-center mb-1 mt-4">
+                      <Cell value="B" />
+                      <Cell value="O" />
+                      <Cell value="Y" />
+                      <Cell value="O" />
+                      <Cell value="S" status="absent" />
+                    </div>
+                    <p className="text-sm text-gray-500">
+                      La letra S (en grizo) no esta en el biervo en ningun lugar.
                     </p>
                   </div>
                 </div>
