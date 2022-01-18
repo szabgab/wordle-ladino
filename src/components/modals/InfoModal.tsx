@@ -62,7 +62,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      Endevina el Biervo en 6 aprovos. Despues kada aprovo, el kolor
+                      Endevina el Biervo en 6 aprovos. Despues kada aprovo, la kolor
                       de las tejas va a kambia para amostrar ke serkano fue tu aprovo
                       a el biervo.
                     </p>
@@ -86,7 +86,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
                       <Cell value="N" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      La letra T (en amaryo) esta en el biervo ama no en este lugra. No en lugar trese.
+                      La letra T (en amaryo) esta en el biervo ama no en este lugar. No en lugar trese.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
