@@ -42,7 +42,7 @@ This will generate a directory called `build`.
 Copy the generated main file:
 
 ```
-cp build/static/js/main.60260a21.js ../ladino/wordle/static/js/main.js
+cp build/static/js/main.*.js ../ladino/wordle/static/js/main.js
 ```
 
 
