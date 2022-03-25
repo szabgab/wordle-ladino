@@ -30,3 +30,19 @@ $ npm run start
 
 ### I'm looking for a junior developer role
 Please feel free to contact me on [linkedin](https://www.linkedin.com/in/hannahpark1000/) and learn more about me [here](https://www.hannahmariepark.com/)
+
+## Build and release
+
+```
+npm run build
+```
+
+This will generate a directory called `build`.
+
+Copy the generated main file:
+
+```
+cp build/static/js/main.60260a21.js ../ladino/wordle/static/js/main.js
+```
+
+
