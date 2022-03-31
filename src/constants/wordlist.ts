@@ -440,6 +440,8 @@ export const WORDS = [
     "times",
     "ijika",
     "junio",
+    "reyne",
+    "rezyo",
     "ancho",
     "menos",
     "viena",

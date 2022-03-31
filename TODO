@@ -1,0 +1,21 @@
+npm run build
+
+
+Add a button to share
+If I forget to share when I am done, I'd still like to be able to click on some button and then share the results.
+
+Allow the user the change the length of the word
+5-letter words are cool, but have you tried 6-letter words?
+
+Make it easy to add other languages
+It would be nice if other languages could use the same code base without creating their own project.
+
+This is too difficult. Allow the user to get a hint
+e.g. by revealing one letter
+
+Disable the letters that are no longer available
+After trying a letter and getting it marked gray, the user should not be able to type it in any more.
+(Maybe make this optional using a checkbox?)
+> The optimal play can easily require letters that aren't available anymore. For example, if you open with "raise", and the "i" is green, and the "e" is yellow, then a near-optimal play is "fends", which narrows the possible solutions from fifteen down to at most two.
+This will probably make the game more difficult
+
